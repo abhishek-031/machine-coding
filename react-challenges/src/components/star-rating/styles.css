@@ -1,0 +1,16 @@
+
+.stars {
+  display: flex;
+  gap: 10px;
+}
+
+.stars div {
+  height: 20px;
+  width: 20px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.filled {
+  background-color: yellow;
+}

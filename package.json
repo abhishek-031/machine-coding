@@ -1,0 +1,22 @@
+{
+  "name": "machine-coding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-react": "cd react-challenges && npm test",
+    "react": "cd react-challenges && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhishek-031/machine-coding.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhishek-031/machine-coding/issues"
+  },
+  "homepage": "https://github.com/abhishek-031/machine-coding#readme"
+}

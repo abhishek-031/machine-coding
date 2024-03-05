@@ -1,0 +1,27 @@
+.App {
+}
+
+.App-header {
+  background-color: #282c34;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.challenge-link {
+  height: 40px;
+  padding: 10px 40px;
+  border: 2px solid black;
+}
+
+.challenges-container {
+  display: flex;
+  margin: 20px 100px;
+  gap: 40px;
+}
