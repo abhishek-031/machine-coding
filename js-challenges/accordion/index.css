@@ -1,0 +1,61 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.App-header {
+  background-color: #282c34;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.accordion {
+  margin: 40px;
+  border-radius: 10px;
+  border: 1px solid rgb(118, 118, 118);
+  padding: 0px 20px;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.accordion-icon {
+  rotate: 180deg;
+  transition: rotate 500ms;
+}
+
+.accordion-expanded .accordion-icon {
+  rotate: 0deg;
+}
+
+.accordion-title {
+  margin: 20px 0;
+}
+
+.accordion-content {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 700ms;
+}
+
+.accordion-content::before {
+  content: "";
+  display: inline-block;
+  height: 2px;
+  width: 100%;
+  border-bottom: 1px solid rgb(118, 118, 118);
+}
+
+.accordion-expanded .accordion-content {
+  max-height: 200px;
+}
