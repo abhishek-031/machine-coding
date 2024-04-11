@@ -1,0 +1,64 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.App-header {
+  background-color: #282c34;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.popover-overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #282c3488;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 500ms;
+}
+
+.popover-content {
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.popover-header {
+  padding: 10px;
+  margin: 0 10px;
+  border-bottom: 1px solid #7b7b7b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.showing {
+  visibility: visible;
+  display: flex;
+  opacity: 1;
+}
+
+p {
+  margin: 0;
+}
+
+.cross {
+  transform: scaleY(0.8);
+}
