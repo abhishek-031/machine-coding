@@ -1,0 +1,89 @@
+form {
+  width: 100%;
+  text-align: center;
+}
+
+form div {
+  margin: 20px 0;
+}
+
+.toast {
+  padding: 10px 20px;
+}
+
+.top-left {
+  transform: translate(-200%);
+  transition: transform 500ms;
+}
+
+.bottom-left {
+  transform: translate(-200%);
+  transition: transform 500ms;
+}
+
+.top-right {
+  transform: translate(200%);
+  transition: transform 500ms;
+}
+
+.bottom-right {
+  transform: translate(200%);
+  transition: transform 500ms;
+}
+
+.top-left-start {
+  transform: translate(0);
+}
+
+.top-right-start {
+  transform: translate(0);
+}
+
+.bottom-left-start {
+  transform: translate(0);
+}
+
+.bottom-right-start {
+  transform: translate(0);
+}
+
+.warning {
+  background-color: yellow;
+}
+
+.error {
+  background-color: red;
+  color: white;
+}
+
+.success {
+  background-color: green;
+  color: white;
+}
+
+.toast-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 20px;
+}
+
+.top-left-container {
+  top:20px;
+  left: 20px;
+}
+
+.bottom-left-container {
+  bottom:20px;
+  left: 20px;
+}
+
+.top-right-container {
+  top:20px;
+  right: 20px;
+}
+
+.bottom-right-container {
+  bottom:20px;
+  right: 20px;
+}

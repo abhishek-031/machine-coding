@@ -6,6 +6,7 @@ import FormatPhoneNoInput from './components/format-phone-no-input'
 import StarRating from './components/star-rating'
 import ProgressBarChallenge from './components/progress-bar'
 import NestedCommentsChallenge from './components/nested-comments'
+import ConfigurableToasts from './components/configurable-toast'
 
 export default function Router() {
   return (
@@ -16,6 +17,7 @@ export default function Router() {
         <Route path='star-rating' Component={StarRating} />
         <Route path='progress-bar' Component={ProgressBarChallenge} />
         <Route path='nested-comments' Component={NestedCommentsChallenge} />
+        <Route path='configurable-toast' Component={ConfigurableToasts} />
         <Route path='*' Component={ChallengesContainer}/>
       </Routes>
     </BrowserRouter>

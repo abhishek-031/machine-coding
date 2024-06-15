@@ -1,0 +1,61 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.App-header {
+  background-color: #282c34;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.carousel {
+  overflow: hidden;
+  height: 300px;
+  position: relative;
+  margin: 30px;
+}
+
+.carousel-content {
+  height: 100%;
+  display: flex;
+  transform: translate(-50px);
+  overflow: scroll;
+  margin: 0 40px;
+}
+
+.carousel-image {
+  display: inline-block;
+  height: 100%;
+}
+
+.carousel-move {
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  transform: translate(0, -50%);
+  display: block;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: black;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+  font-size: 25px;
+  z-index: 10;
+}
+
+.move-left {
+  left: 0;
+}
+
+.move-right {
+  right: 0;
+}
